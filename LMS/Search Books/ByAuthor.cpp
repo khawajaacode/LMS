@@ -40,18 +40,6 @@ void byAuthor(string* books, string* authorName, bool available[], int* arr_size
 
                     lend(available, books, index);
                 }
-                else if (lend_option == 2)
-                {
-
-                    continue;
-                }
-                else
-                {
-
-                    cout << "\n This key is considered as NO\n"
-                        << endl;
-                    continue;
-                }
                 
                 break;
             }

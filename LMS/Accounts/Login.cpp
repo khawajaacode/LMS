@@ -10,7 +10,7 @@ bool login(int usersIDs[], int size)
 
     int id;
 
-    bool returning = 1;
+    bool returning = 0;
 
     cout << "\nPlease enter your id : ";
 
@@ -57,6 +57,7 @@ bool login(int usersIDs[], int size)
 
                 returning = 0;
             }
+            
         }
     }
 

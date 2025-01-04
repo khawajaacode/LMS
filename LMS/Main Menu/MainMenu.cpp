@@ -19,10 +19,10 @@ void mainMenu(string* books, string* authorname, bool* available, int* books_arr
         cout << "\nMain Menu\n"
             << endl;
 
-        cout << "1. Library." << endl
-            << "2. Search." << endl
-            << "3. Add." << endl
-            << "4. Lend." << endl
+        cout << "1. List Books." << endl
+            << "2. Search Books." << endl
+            << "3. Add Books." << endl
+            << "4. Lend Book." << endl
             << "5. exit." << endl;
 
         cout << "\nChoose one of em with sr.no : ";
